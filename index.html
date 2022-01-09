@@ -9,8 +9,11 @@
 
     <body>
         <header>
+
+            <!--<img src="./assets/images/image-me.jpg" alt="My picture for the bio portion"/>-->
+
             <h1>
-                <a href="/">Cole Johnson</a>
+                Cole Johnson
             </h1>
 
             <!-- Navs to Each Section-->
@@ -20,7 +23,7 @@
                         <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="#works">Finished Works</a>
+                        <a href="#works">Finished and Upcoming Works</a>
                     </li>
                     <li>
                         <a href="#contact-me">Contact Me</a>
@@ -29,49 +32,67 @@
             </nav>    
         </header>
 
-        <section id="about-me" class="bio">
-            <h3 class="bio-title section-title">About Me</h3>
-            <div class="bio-text">
-                <p>
-                  I am 22 years old, and currently trying to transition my life to one of coding, and development. In this website you will see my currently finished works, and as I complete/create more you will see this page updated. So please stay tuned for the future!
-                </p>
-            </div>
-            <div class="bio-img">
-                <img src="./assets/images/image-me.jpg" alt="My picture for the bio portion">
+                <!--hero/jumbotron-->
+        <section class="hero">
+            <div class="sub-header">
+                <img src="./assets/images/image-me.jpg" height="200px" >
+                <h2> This is me!</h2>
             </div>
         </section>
+        
 
-        <section id="works" class="finished">
+        <section id="about-me" class="container">
+            
+            <div class="section-title">
 
-            <h3 class=" work-title section-title">Finished Works</h3>
-            <div class="work1">
-                <h4>
-                    Run Buddy
-                    <p>
-                        Created Using HTML/CSS
-                    </p>
-                </h4>
+                <h3>About Me</h3>
+            </div>
+
+            <div class="bio-content">
+                <p>
+                I am 22 years old, and currently trying to transition my life to one of coding, and development. In this website you will see my currently finished works, and as I complete/create more you will see this page updated. So please stay tuned for the future! I was once a chef and graduated from Culinary School in 2020, but felt that I was not in the right space mentally for myself, so here I am.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="works" class="conatiner">
+            <div class="section-title"><h3>Finished Works</h3></div>
                 
+            <div class="work">
+                <div class="cards">
+                    <h4>
+                        Run Buddy
+                    </h4>
+                    <a href="https://colevibes.github.io/run-buddy/">
+                        <img src="./assets/images/runing.png">
+                    </a>
+                </div>
+
+                <div class="cards">
+                    <h4>Horiseon/Coding refactoring</h4>
+                    <a href="https://colevibes.github.io/coding-refactor/">
+                        <img src="assets/images/horizon.jpg">
+                    </a>
+                </div>
             </div>
         </section>
 
-        <section id="contact-me" class="contact">
+        <section id="contact-me" class="container">
 
-            <h3 class="contact-title section-title">Contact</h3>
-            <div class="contact-bio">
-                <p>
-                    Curious about my career as a Software/Web Developer?
-                    <br />
-                    I would be happy to answer any questions you have!
-                </p>
+            <div class="section-title">
+                <h3>Contact Me</h3>
             </div>
 
-            <div class="contact-address">
-                <address>
+
+            <div class="contact-info">
+                <p>
                     2888 My Street <br />
                     MyTown, WI <br />
                     12345 <br />
                     P: <a href="tel:608.622.8624">608.622.8624</a><br />
+                </p>
+                <address>
                     E: <a href="ccjohn015@gmail.com">ccjohn015@gmail.com</a>
                 </address>
             </div>

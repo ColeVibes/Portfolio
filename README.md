@@ -1,5 +1,13 @@
 # Portfolio
 
-Hello,
+### Description
 
-My name is Cole and thyis is a limited view of what I can do with HTML and CSS in a portfolio aspect, updates will be forthcoming and the page is live at https://colevibes.github.io/Portfolio/
+My name is Cole and this is a limited view of what I can in a portfolio aspect, updates will be forthcoming!
+
+### Skills Used
+
+- HTML
+- CSS
+
+### Live Link:
+https://colevibes.github.io/Portfolio/

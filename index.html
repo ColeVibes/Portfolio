@@ -1,108 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
     <header>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width", initial-scale="1.0" />
-        <title>C. Johnson Portfolio</title>
-        <link rel="stylesheet" href="./assets/style.css"/>
+      <div class="container flex-row justify-space-between align-center py-3">
+        <h1 class="page-title text-secondary bg-dark py-2 px-3">Cole Johnson</h1>
+        <nav class="flex-row">
+          <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/ColeVibes">GitHub</a>
+        </nav>
+      </div>
     </header>
-
-    <body>
-        <header>
-
-            <!--<img src="./assets/images/image-me.jpg" alt="My picture for the bio portion"/>-->
-
-            <h1>
-                Cole Johnson
-            </h1>
-
-            <!-- Navs to Each Section-->
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#works">Finished and Upcoming Works</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>    
-        </header>
-
-                <!--hero/jumbotron-->
-        <section class="hero">
-            <div class="sub-header">
-                <img src="./assets/images/image-me.jpg" height="200px" >
-                <h2> This is me!</h2>
-            </div>
-        </section>
+    <main class="container my-5">
+      
+    <section class="my-3" id="about">
+      <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
+      <p>I am a current student and long time fan of coding, and wish to make it my career as a developer in either web, software, or gaming. I originally graduated Culinary School but decided it was no longer for me when looking into a long term life plan. I want to create things with my knowledge and skills, and this page is here to help display those skills!</p>
+    </section>
+  
+      
+    <section class="my-3" id="portfolio">
+      <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
+      <div class="flex-row justify-space-between">
+      
+          <div class="col-12 mb-2 bg-dark text-light p-3">
+            <h3 class="portfolio-item-title text-light">Dinner Party Planner</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              Javascript, HTML, CSS
+            </h5>
+            <p>In this project, we worked as devlopement team of four people to create a meal and drink finding site using third-party APIs that we thought best fit our needs as a group. I had a lot of fun working together with my team to create something unqiuely our own!</p>
+            <a href="https://github.com/MattKolbach/DinnerPlanner" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+          <div class="col-12 mb-2 bg-dark text-light p-3">
+            <h3 class="portfolio-item-title text-light">Weather Forecast</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              Javascript, HTML, CSS
+            </h5>
+            <p>Weeather forecast is a website that you can input the name of a city and it will output the current weather, as well as a five day forecast with the power of a third-party weather API.</p>
+            <a href="https://github.com/ColeVibes/weather-app" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
         
 
-        <section id="about-me" class="container">
-            
-            <div class="section-title">
-
-                <h3>About Me</h3>
-            </div>
-
-            <div class="bio-content">
-                <p>
-                I am 22 years old, and currently trying to transition my life to one of coding, and development. In this website you will see my currently finished works, and as I complete/create more you will see this page updated. So please stay tuned for the future! I was once a chef and graduated from Culinary School in 2020, but felt that I was not in the right space mentally for myself, so here I am.
-                </p>
-            </div>
-
-        </section>
-
-        <section id="works" class="conatiner">
-            <div class="section-title"><h3>Finished Works</h3></div>
-                
-            <div class="work">
-                <div class="cards">
-                    <h4>
-                        Run Buddy
-                    </h4>
-                    <a href="https://colevibes.github.io/run-buddy/">
-                        <img src="assets/images/real-run-buddy.png" alt="run buddy">
-                    </a>
-                </div>
-
-                <div class="cards">
-                    <h4>Horiseon/Coding refactoring</h4>
-                    <a href="https://colevibes.github.io/coding-refactor/">
-                        <img src="assets/images/horizon.jpg" alt= "coding refactor">
-                    </a>
-                </div>
-
-                <div class="cards">
-                    <h4>Dinner Party Planner</h4>
-                    <a href="https://mattkolbach.github.io/DinnerPlanner/">
-                        <img src="assets/images/DinnerAndDrinks-screenshot.png" alt="group project">
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact-me" class="container">
-
-            <div class="section-title">
-                <h3>Contact Me</h3>
-            </div>
-
-
-            <div class="contact-info">
-                <p>
-                    2888 My Street <br />
-                    MyTown, WI <br />
-                    12345 <br />
-                    P: <a href="tel:608.622.8624">608.622.8624</a><br />
-                </p>
-                <address>
-                    E: <a href="ccjohn015@gmail.com">ccjohn015@gmail.com</a>
-                </address>
-            </div>
-        </section>
-    </body>
-</html>
+      
+          <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+            <h3 class="portfolio-item-title text-light">Work Day Scheduler</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              Javascript, HTML, CSS
+            </h5>
+            <p>In this project I created a hourly work day planner to help a user plan out and add things to a calender. I found this one to be interesting because of the icons used and ease of use it has.</p>
+            <a href="https://github.com/ColeVibes/work-day-scheduler" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+          <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+            <h3 class="portfolio-item-title text-light">Coding Quiz</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              Javascript, HTML, CSS
+            </h5>
+            <p>This site I created was implementing Moment.js and its use in creating a timer clock for the countdown.</p>
+            <a href="https://github.com/ColeVibes/coding-quiz" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+      </div>
+    </section>
+  
+    </main>
+    <section class="my-3" id="about">
+      <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
+       <p>I am a current student and long time fan of coding, and wish to make it my career as a developer in either web, software, or gaming. I originally graduated Culinary School but decided it was no longer for me when looking into a long term life plan. I want to create things with my knowledge and skills, and this page is here to help display those skills!</p>
+    </section>
+    <footer class="container text-center py-3">
+      <h3 class="text-dark">&copy; 2022 by Cole Johnson</h3>
+    </footer>
+  </body>
+  </html>
+  
